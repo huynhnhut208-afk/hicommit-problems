@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int t;
     if (t < 15) {
