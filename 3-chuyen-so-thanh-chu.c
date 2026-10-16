@@ -3,7 +3,7 @@
 int main() {
     int so;
     printf("Nhap vao mot so nguyen (0-9): ");
-    scanf("%d", &so);
+    scanf("%d", &s );
     switch (so) {
         case 0:
             printf("Khong\n");
