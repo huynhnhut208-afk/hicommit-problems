@@ -2,6 +2,7 @@
 
 int main() {
     int t;
+    
     if (scanf("%d", &t) == 1) {
         if (t < 15) {
             printf("LANH\n");
@@ -16,3 +17,6 @@ int main() {
     
     return 0;
 }
+
+
+
