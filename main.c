@@ -6,7 +6,7 @@ int main() {
 
     long long total = 0;
     
-    if (k < 50) {
+    if (k < 50); {
         total = (long long)k * 1678
     } else if (k <= 100) {
         total = 50LL * 1678 + (long long)(k - 50) * 1734;
