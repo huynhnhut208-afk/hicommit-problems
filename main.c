@@ -6,9 +6,9 @@ int main() {
 
     long long total = 0;
     
-    if (k < 50); {
-        total = (long long)k * 1678
-    } else if (k <= 100); {
+    if (k <= 50) {
+        total = (long long)k * 1678;
+    } else if (k <= 100) {
         total = 50LL * 1678 + (long long)(k - 50) * 1734;
     } else if (k <= 200) {
         total = 50LL * 1678 + 50LL * 1734 + (long long)(k - 100) * 2014;
