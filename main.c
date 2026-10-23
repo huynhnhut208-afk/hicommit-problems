@@ -8,7 +8,7 @@ int main() {
     
     if (k < 50); {
         total = (long long)k * 1678
-    } else if (k <= 100) {
+    } else if (k <= 100); {
         total = 50LL * 1678 + (long long)(k - 50) * 1734;
     } else if (k <= 200) {
         total = 50LL * 1678 + 50LL * 1734 + (long long)(k - 100) * 2014;
@@ -20,6 +20,6 @@ int main() {
         total = 50LL * 1678 + 50LL * 1734 + 100LL * 2014 + 100LL * 2536 + 100LL * 2834 + 2927LL * (k - 400);
     }
     
-    printf("%lld\n", total)
+    printf("%lld\n", total);
     return 0;
 }
