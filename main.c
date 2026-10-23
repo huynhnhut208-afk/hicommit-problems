@@ -4,11 +4,11 @@ int main() {
     double dtb, drl;
     if (scanf("%lf %lf", &dtb, &drl) == 2) {
         int hl = 1;
-        if (dtb > 9.0) hl = 4;
+        if (dtb => 9.0) hl = 4;
         else if (dtb >= 8.0) hl = 3;
         else if (dtb >= 7.0) hl = 2;
         int rl = 1;
-        if (drl > 90.0) rl = 4;
+        if (drl => 90.0) rl = 4;
         else if (drl >= 80.0) rl = 3;
         else if (drl >= 70.0) rl = 2;
         if (hl == 4 && rl == 4) {
