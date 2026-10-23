@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    double dtb
+    double dtb;
     if (scanf("%lf", &dtb) == 1) {
         if (dtb >= 9.0) {
             printf("A\n");
@@ -17,7 +17,7 @@ int main() {
         } else if (dtb >= 4.0) {
             printf("D\n");
         } else {
-            printf("F\n");
+            printf("F\n")
         }
     }
     return 0;
