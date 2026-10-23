@@ -9,7 +9,7 @@ int main() {
             printf("UNDERWEIGHT\n");
         } else if (bmi < 25.0) {
             printf("NORMAL\n");
-        } else if (bmi < 35.0) {
+        } else if (bmi < 30.0) {
             printf("OVERWEIGHT\n");
         } else {
             printf("OBESE\n");
