@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 int main() {
-    int a{1,2,3,4,5};
-    if (scanf("%d", &a) == 1) {
-        switch (a) {
+    int n;
+    if (scanf("%d", &n) == 1) {
+        switch (n) {
             case 1:
                 printf("XEP_LOAI_XUAT_SAC\n");
                 break;
