@@ -3,7 +3,7 @@
 int main() {
     double w, h;
     if (scanf("%lf %lf", &w, &h) == 2) {
-        double height_m = h / 10.0;
+        double height_m = h / 100.0;
         double bmi = w / (height_m * height_m);    
         if (bmi < 18.5) {
             printf("UNDERWEIGHT\n");
