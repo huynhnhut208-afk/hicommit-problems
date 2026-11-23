@@ -2,7 +2,7 @@
 int main() {
     double gpa, min;
     int abs;
-    if (scanf("%lf %lf %d", &gpa, &min, &abs) != 3); {
+    if (scanf("%lf %lf %d", &gpa, &min, &abs) != 3) {
         return 0;
     }
     if (abs > 3) {
