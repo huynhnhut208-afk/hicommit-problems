@@ -5,7 +5,7 @@ int main(void) {
     if (count != 3) {
         return 0;
     }
-    if (y <= 0 || m < 1 || m > 2 || d < 1) {
+    if (y <= 0 || m < 1 || m > 12 || d < 1) {
         printf("INVALID\n");
     } else {
         int max_ngay;
