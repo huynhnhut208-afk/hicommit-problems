@@ -10,7 +10,7 @@ int main(void) {
     } else {
         int max_ngay;
       if (m == 4 || m == 6 || m == 9 || m == 11) {
-            max_mgay = 30;
+            max_ngay = 30;
      } else if (m == 2) {
       if ((y % 400 == 0) || (y % 4 == 0 && y % 100 != 0)) {
                 max_ngay = 29;
