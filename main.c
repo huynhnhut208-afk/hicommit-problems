@@ -8,19 +8,19 @@ int main(void) {
     if (y <= 0 || m < 1 || m > 2 || d < 1) {
         printf("INVALID\n");
     } else {
-        int max_days;
+        int max_ngay;
       if (m == 4 || m == 6 || m == 9 || m == 11) {
-            max_days = 30;
+            max_mgay = 30;
      } else if (m == 2) {
       if ((y % 400 == 0) || (y % 4 == 0 && y % 100 != 0)) {
-                max_days = 29;
+                max_ngay = 29;
      } else {
-                max_days = 28;
+                max_ngay = 28;
             }
       } else {
-            max_days = 31;
+            max_ngay = 31;
         }
-        if (d <= max_days) {
+        if (d <= max_ngay) {
             printf("VALID\n");
         } else {
             printf("INVALID\n");
