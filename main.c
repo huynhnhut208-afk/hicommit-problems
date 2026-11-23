@@ -11,9 +11,9 @@ int main() {
         printf("FAIL_SUBJECT\n");
     } else if (gpa >= 8.0 && min >= 7.0) {
         printf("EXCELLENT\n");
-    } else if (gpa >= 7.0 && min >= 5.5) {
+    } else if (gpa >= 6.5 && min >= 5.0) {
         printf("GOOD\n");
-    } else if (gpa >= 5.0){
+    } else if (gpa >= 5.0 && min >= 4.0){
         printf("PASS\n");
     } else {
         printf("FAIL\n");
